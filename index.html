@@ -105,6 +105,48 @@
         }
        
 
+        /* Manohar */
+        #right-nav {
+        display: inline-block;
+        margin-left: 8vw;
+        width: 550px;
+        height: 50px;
+        margin-top: 10px;
+        /* border: 1px solid black; */
+        display: flex;
+      }
+      #right-nav > div {
+        /* border: 1px solid red; */
+        width: 225px;
+        height: 100%;
+      }
+      input[type="text"] {
+        height: 95%;
+      }
+      #searching {
+        border: 1px solid black;
+        display: flex;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+      }
+      #icon-search {
+        margin-top: 15px;
+        margin-left: 15px;
+        height: 50px;
+        width: 50px;
+      }
+      #icon-search + div > input {
+        border: none;
+      }
+      #btn-Express {
+        display: flex;
+        width: 210px;
+        border-radius: 30px;
+        background-color: #cc1423;
+        color: aliceblue;
+        border: none;
+      }
     </style>
 </head>
 <body>
@@ -138,6 +180,8 @@
         </div>
     </nav>
 
+
+
     <!-- Header section starts -->
     <header class="navbar">
             <!-- Logo section -->
@@ -155,6 +199,43 @@
                 <li><a href="#">CLASSICS</a></li>
                 <li><a href="#" class="sale">SALE</a></li>
             </ul>
+
+            <div id="right-nav">
+                <div id="searching">
+                  <div id="icon-search">
+                    <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+                  </div>
+                  <div><input type="text" placeholder="Search" /></div>
+                </div>
+                <div>
+                  <button id="btn-Express">
+                    <div
+                      style="
+                        width: 40px;
+                        height: 30px;
+                        border: 1px solid black;
+                        padding-top: 13px;
+                        border: none;
+                      "
+                    >
+                      <i class="fa-solid fa-truck"></i>
+                    </div>
+                    <div style="text-align: left; margin-top: 10px">
+                      <p style="font-weight: 600">EXPRESS DELIVERY</p>
+                      <p style="font-size: 10px">Select your nearest store ></p>
+                    </div>
+                  </button>
+                </div>
+              </div> 
     </header>
+
+
+    
+
+
 </body>
+<script
+    src="https://kit.fontawesome.com/ab49353299.js"
+    crossorigin="anonymous"
+  ></script>
 </html>
