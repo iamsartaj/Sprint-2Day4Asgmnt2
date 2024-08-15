@@ -50,3 +50,48 @@ body {
     margin: 25px;
     
 }
+
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    font-size: 13px;
+    background-color: rgb(44, 153, 153);
+    padding: 5px 8px;
+  }
+ 
+.top-right{
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    color: black;
+}
+
+body {
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+#message {
+    position: absolute;
+    bottom: 20px;
+    right: 35px;
+}
+#image {
+    height: 60px;
+    width: 60px;
+}
+.ym-online-box {
+    background-color: green;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-left: 25px;
+    border: 3px solid white;
+}
